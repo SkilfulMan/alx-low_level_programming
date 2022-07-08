@@ -10,3 +10,4 @@ void print_square(int size);
 void print_triangle(int size);
 void _putchar(int n);
 void prime_factor(int size);
+void print_number(int n);
