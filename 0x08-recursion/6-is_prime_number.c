@@ -15,7 +15,11 @@ int prime_check(int f, int p)
 		else if (f > p / 2)
 			return (1);
 		else
+<<<<<<< HEAD
 			return (prime_check(f + 1, p));
+=======
+							return (prime_check(f + 1, p));
+>>>>>>> 90749b96202acd0648d4041753dbfdf1c14c4b29
 }
 
 /**
@@ -27,7 +31,13 @@ int prime_check(int f, int p)
 
 int is_prime_number(int n)
 {
+<<<<<<< HEAD
 	if (n == 2)
 		return (1);
 	return (prime_check(2, n));
+=======
+		if (n == 2)
+			return (1);
+			return (prime_check(2, n));
+>>>>>>> 90749b96202acd0648d4041753dbfdf1c14c4b29
 }
